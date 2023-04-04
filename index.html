@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>MVP</title>
+</head>
+
+<body>
+     <!-- Cabeçalho de informações do sistema -->
+    <header>
+        <div class="title">
+            <h2>Gerenciador de Estudos</h2>
+        </div>
+        <div class="banner">
+            <img src="estudo.jpg"
+            alt="y">
+        </div>
+    </header>
+
+     <!-- Opções para adicionar um novo item -->
+    <section class="newItem">
+        <input     type="text" id="newDisciplinaEstudada"   placeholder="Adicionar nova Disciplina Estudada:">
+		<input     type="text" id="newConteudo"             placeholder="Conteúdo:">
+		<input     type="text" id="newContato"              placeholder="Primeiro Contato:">
+		<input     type="text" id="newPrimeiraRevisao"      placeholder="Primeira Revisão:">
+		<input     type="text" id="newSegundaRevisao"       placeholder="Segunda Revisão:">
+		<input     type="text" id="newQuestõesFeitas"       placeholder="Questões Feitas:">
+		<input     type="text" id="newQuestõesAcertadas"    placeholder="Questões Acertadas:">
+
+        <span onclick="newItem()" class="addBtn">Adicionar</span>
+    </section>
+	
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="myTable">
+            <tr>
+                <th>Disciplina</th>
+                <th>Conteúdo</th>
+				<th>Primeiro Contato</th>
+                <th>Primeira Revisão</th>
+				<th>Segunda Revisão</th>
+				<th>Questões Feitas</th>
+				<th>Questões Acertadas</th>
+
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
