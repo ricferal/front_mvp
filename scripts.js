@@ -120,6 +120,8 @@ const newItem = () => {
   let inputSegundaRevisao = document.getElementById("newSegundaRevisao").value;
   let inputQuestõesFeitas = document.getElementById("newQuestõesFeitas").value;
   let inputQuestõesAcertadas = document.getElementById("newQuestõesAcertadas").value;
+  // let inputDataPrimeiraRevisao = document.getElementById("dataPrimeiraRevisao").value;
+
 
   if (inputDisciplina === '') {
     alert("Escreva Disciplina!");
