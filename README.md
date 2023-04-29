@@ -8,3 +8,4 @@ O objetivo aqui é colocar em prática o conteúdo apresentado ao longo das aula
 ## Como executar
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
+
