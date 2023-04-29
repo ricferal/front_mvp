@@ -9,3 +9,8 @@ O objetivo aqui é colocar em prática o conteúdo apresentado ao longo das aula
 
 Basta fazer o download do projeto e abrir o arquivo index.html no seu browser.
 
+Front do Gerenciador de Estudo:
+
+![image](https://user-images.githubusercontent.com/6364605/235326172-29b989f8-d464-493e-b2f1-cc75b666061d.png)
+
+
