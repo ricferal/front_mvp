@@ -31,11 +31,10 @@
 		<input     title="INSIRA NO FORMATO DD/MM/AAAA"  type="text" id="newSegundaRevisao"       placeholder="2º Revisão:(dd/mm/aaaa)">
 		<input     type="text" id="newQuestõesFeitas"       placeholder="Questões Feitas:">
 		<input     type="text" id="newQuestõesAcertadas"    placeholder="Questões Certas:">
+        <input     type="text" id="bancaUtilizada"    placeholder="Banca(CESPE/FCC)">
+        <input     type="hidden" id="endereco">
         <!-- <input  placeholder="1º Revisão:" id="dataPrimeiraRevisao" type="date" onchange="this.className=(this.value!=''?'has-value':'')">-->
-
-
-
-        <span onclick="newItem()" class="addBtn">Adicionar</span>
+        <span onclick="newItem()" class="addBtn">Adicionar/Atualizar</span>
     </section>
 	
     <!-- Tabela com items existentes -->
@@ -49,7 +48,8 @@
 				<th>2º Revisão</th>
 				<th>Questões Feitas</th>
 				<th>Questões Certas</th>
-
+                <th>Banca utilizada</th>
+                <th>Endereço</th>
                 <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
             </tr>
         </table>
